@@ -62,7 +62,6 @@ public class CalculadoraControler {
 		unaCalculadora.setB(num2);
 		
 		float resultadoDivision = unaCalculadora.dividirDosnumeros();
-		
 		ModelAndView modelView = new ModelAndView("resultado");
 		modelView.addObject("resultadoDivision", resultadoDivision);
 		
